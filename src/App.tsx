@@ -1,6 +1,7 @@
 import { TonConnectButton } from '@tonconnect/ui-react'
 import { useCounterContract } from './hooks/useCounterContract'
 import { useClipboard } from './hooks/useClipboard'
+import '@twa-dev/sdk'
 
 function App() {
   const { value, address, increment, getValue } = useCounterContract()
